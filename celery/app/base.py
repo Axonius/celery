@@ -1222,7 +1222,7 @@ class Celery:
         """AMQP related functionality: :class:`~@amqp`."""
         return instantiate(self.amqp_cls, app=self)
 
-    @cached_property
+    @property
     def backend(self):
         """Current backend instance."""
         try:
