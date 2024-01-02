@@ -1,10 +1,10 @@
 repos:
 -   repo: https://github.com/ambv/black
-    rev: stable
+    rev: ec91a2be3c44d88e1a3960a4937ad6ed3b63464e  # frozen: stable
     hooks:
     - id: black
       language_version: python3.7
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v1.2.3
+    rev: 92e1570c282e3c69a1f8b5b8dd8d286fe27cfaa7  # frozen: v1.2.3
     hooks:
     - id: flake8
